@@ -112,7 +112,7 @@ class ObjectTracker:
             self.v_handle.release()
 
 def main():
-    ot = ObjectTracker('d:/batches/TE_PBL/object tracker/a.mp4')
+    ot = ObjectTracker('f:/TE_PBL/object tracker/a.mp4')
     ot.tracker()
 
 main()
